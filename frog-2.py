@@ -28,11 +28,10 @@ def frog(final_dist=100,max=6):
             
             trials += 1
             
-        print "{0}\t{1}".format(total_dist,(total_leaps*1.0)/trials)
+        print("{0}\t{1}".format(total_dist,(total_leaps*1.0)/trials))
     
         total_dist += 1
     
     return "DONE"
             
-    
     
